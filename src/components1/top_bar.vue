@@ -27,7 +27,7 @@ export default {
     name:"topbar",
     data(){
         return{
-            nav_items:["Home","My New World","Store Data","Axios Data Store","Axios payload","POST TO MONGODB","GET DATA IN TABLE","List","Make"],  
+            nav_items:["Home","My New World","Store Data","Axios Data Store","Axios payload","POST TO MONGODB","GET DATA IN TABLE","List","Make","vuetify"],  
         }
     },
     
@@ -51,7 +51,7 @@ ul li{
 .linktab{
   text-decoration:none;
     display:inline;
-    margin:5px;
+    margin:10px;
     background-color:rgb(11, 167, 89);
     color:#000000;
     padding: 5px;

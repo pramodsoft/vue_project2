@@ -9,6 +9,8 @@ import test_record from './components/test_record.vue'
 import post_to_mongo from './components1/post_to_mongo.vue'
 import get_data_in_table from './components1/get_data_in_table.vue'
 
+import vuetify_com from './components/vuetify_com.vue'
+
 
 export default[
     { path:"/", component:home},
@@ -21,6 +23,7 @@ export default[
     { path:"/make", component:make_list},
     { path:"/get data in table", component:get_data_in_table},
    
-    { path:"/mytest", component:test_record}
+    { path:"/mytest", component:test_record},
+    { path:"/vuetify", component:vuetify_com}
 
 ]

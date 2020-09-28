@@ -1,5 +1,6 @@
 <template>
-  <div id="app">
+<div id="app">
+  
     <top_bar>Link Use Router-Link component working same as href </top_bar> 
     
     <div id="router_view">
@@ -8,13 +9,18 @@
       </div>
     <class_change_test>SHOW CHANGE IN CLASS EFFECT ON CLICK EVENT</class_change_test>
     <fatch_data></fatch_data>
-  </div>
+    
+    <vuetify_com></vuetify_com>
+  
+    
+ </div>
 </template>
 
 <script>
 import top_bar from "./components1/top_bar.vue";
 import class_change from "./components1/change_class.vue";
 import fatch_data from "./components/fatch_data.vue";
+import vuetify_com from "./components/vuetify_com.vue";
 
 export default {
   
@@ -31,6 +37,7 @@ export default {
    class_change_test:class_change,
    top_bar,
    fatch_data,
+   vuetify_com,
   }
 }
 </script>
